@@ -1,7 +1,21 @@
-#h2 {
-    text-align: center;
+.contaner {
+  padding: 10px;
+  font-weight: bold;
+  color: black;
 }
-#li {
+h2 {
+    text-align: center;
+  color: green;
+}
+.contaner1 {
+    padding: 10px;
+  font-weight: bold;
+  color: blue;
+}
+.ul1 {
+    color: black;
+}
+#bold2 {
     font-weight: bold;
     color: aqua;
 }
@@ -9,18 +23,10 @@ p {
     color: blue;
     font-size: 16px;
 }
-#h1 {
-    color: red;
+#bold1 {
+    font-weight: bold;
 }
-.ul {
-    color: black;
-}
-.contaner {
-  padding: 20px;
-  font-weight: bold;
-}
-.contaner1 {
-    padding: 10px;
-  font-weight: bold;
-  color: blue;
+#title {
+  text-align: center;  
+  color: red;
 }
