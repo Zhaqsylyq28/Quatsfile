@@ -1,0 +1,25 @@
+.head {
+  background-color: #3355bd;
+}
+.box1 {
+    background-color: rgba(100, 100, 55, 0.7);
+  width: 50%;
+  height: 50%;
+}
+.box {
+    background-color: rgb(255, 55, 100);
+  width: 200px;
+  height: 200px;
+}
+.p2 {
+  font-size: 2em;
+  color: #42b;
+}
+.p1 {
+  font-size: 18px;
+  color: #25bb2a;
+}
+#podzagol {
+  font-size: 1.5em;
+  color: #FF2030;
+}
