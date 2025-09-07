@@ -1,0 +1,28 @@
+.block {
+  background-color: rgb(72, 205, 89);
+  margin: 10px 0;
+  padding: 10px;
+}
+.block1 {
+  background-color: rgb(42, 42, 237, 0.5);
+  margin: 13px;
+  padding: 13px;
+  text-align: center;
+}
+.inline {
+  background-color: lightgreen;
+  margin: 0 5px;
+  padding: 5px;
+}
+.inline-to-block {
+  display: block;
+  background-color: yellow;
+  margin: 20px 0;
+  padding: 20px;
+}
+.block-to-inline {
+  display: inline;
+  background-color: rgb(71, 164, 195);
+  margin: 0 15px;
+  padding: 15px;
+}
