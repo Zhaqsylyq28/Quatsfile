@@ -1,0 +1,46 @@
+.button:hover {
+  background-color: aqua;
+  color: #870a0a;
+  border-radius: 10px;
+  }
+.button:active {
+  background-color: white;
+  color: blue;
+  margin: 1px;
+  padding: 5px;
+  border-radius: 15px;
+  border-color: rgb(0, 122, 0);
+}
+.input:focus {
+  border-color: blue;
+  border-radius: 10px;
+}
+.list-item:nth-child(odd) {
+  background-color: rgb(224, 189, 189);
+}
+.list-item:nth-child(even) {
+  background-color: aquamarine;
+}
+.list-item:first-child {
+  font-weight: bold;
+}
+.list-item:last-child {
+  color: green;
+  background-color: yellow;
+}
+.link1:focus {
+  color: #000;
+}
+.link1:active {
+  color: red;
+}
+.block1 {
+  border: #000, solid;
+  border-color: blueviolet;
+  border-width: 1px;
+}
+.block1:first-child(odd) {
+  border-color: #870a0a;
+  border-width: 1.5px;
+
+}

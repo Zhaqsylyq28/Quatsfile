@@ -8,6 +8,7 @@
   margin: 13px;
   padding: 13px;
   text-align: center;
+
 }
 .inline {
   background-color: lightgreen;
@@ -15,10 +16,11 @@
   padding: 5px;
 }
 .inline-to-block {
-  display: block;
+  display: inline-block; /*не понял разнизу между inline и inline-block и почему название картинки рассматривается отдельно от самой картинки?*/
   background-color: yellow;
   margin: 20px 0;
   padding: 20px;
+  vertical-align: middle;
 }
 .block-to-inline {
   display: inline;
