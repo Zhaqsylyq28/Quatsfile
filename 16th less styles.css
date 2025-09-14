@@ -29,18 +29,22 @@
   background-color: yellow;
 }
 .link1:focus {
-  color: #000;
+  color: #060274;
 }
 .link1:active {
   color: red;
 }
 .block1 {
-  border: #000, solid;
+  border: solid;
   border-color: blueviolet;
   border-width: 1px;
 }
 .block1:first-child(odd) {
   border-color: #870a0a;
   border-width: 1.5px;
-
+  
+}
+.block1:first-child(odd):focus {
+  border-color: orange;
+  border-width: 2.5px;
 }
