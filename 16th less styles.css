@@ -39,12 +39,12 @@
   border-color: blueviolet;
   border-width: 1px;
 }
-.block1:first-child(odd) {
+.block1:first-child:active {
   border-color: #870a0a;
   border-width: 1.5px;
   
 }
-.block1:first-child(odd):focus {
+.block1:last-child:focus {
   border-color: orange;
   border-width: 2.5px;
 }

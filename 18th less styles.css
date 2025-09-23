@@ -1,0 +1,47 @@
+.static-element {
+  position: static;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+}
+.relative-element {
+  position: relative;
+  top: 6px;
+  left: 30px;
+  background-color: lightcoral;
+}
+.container {
+  position: relative;
+}
+.absolute-element {
+  position: absolute;
+  background-color: lightgreen;
+  top: 600px;
+}
+.fixed-element {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.container1 {
+  height: 500px;
+}
+.sticky-element {
+  position: sticky;
+  top: 10px;
+  background-color: aqua;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.container2 {
+  width: 600px;
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+}
+.float-left {
+  float: left;
+  margin: 15px;
+}
+p {
+  text-align: justify;
+}
