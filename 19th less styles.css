@@ -1,0 +1,32 @@
+.contaner1 {
+  display: block;
+  flex-wrap: wrap;
+  height: 300px;
+  align-content: space-around;
+  border: 2px solid black;
+}
+
+.contaner2 {
+  display: inline;
+  flex-wrap: wrap;
+  height: 300px;
+  align-content: space-around;
+  border: 2px solid black;
+}
+
+.contaner3 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  align-content: space-around;
+  border: 2px solid black;
+}
+
+.item {
+  flex: 0 0 30%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: lightblue;
+  text-align: center;
+}
