@@ -1,25 +1,49 @@
-.contaner1 {
+/*Задание 1: Свойство `display`*/
+.container1 {
   display: block;
   flex-wrap: wrap;
   height: 300px;
   align-content: space-around;
-  border: 2px solid black;
+  border: 2px solid rgb(10, 131, 51);
 }
 
-.contaner2 {
+.container2 {
   display: inline;
   flex-wrap: wrap;
   height: 300px;
   align-content: space-around;
-  border: 2px solid black;
+  border: 2px solid rgb(180, 214, 25);
 }
 
-.contaner3 {
+.container3 {
   display: flex;
   flex-wrap: wrap;
   height: 300px;
   align-content: space-around;
-  border: 2px solid black;
+  border: 2px solid rgb(55, 45, 204);
+}
+/*Задание 2: Flex-контейнер + Задание 3: Свойства `flex-direction`, `flex-wrap`, `flex-flow`*/
+.container4 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  /*align-items: flex-end; */
+  /*align-content: space-evenly;*/
+  height: 300px;
+  margin-top: 3px;
+  align-content: space-around; /*умень-ся высота доч эл-тов*/
+  border: 2px solid purple;
+}
+/*Задание 4: Выравнивание элементов*/
+.container5 {
+  display: flex;
+  flex-flow: column-reverse wrap-reverse;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 300px;
+  margin-top: 3px;
+  align-content: space-evenly;/*эл-ты смещает в центр*/
+  border: 2px solid orange;
 }
 
 .item {
@@ -29,4 +53,132 @@
   border: 1px solid #ccc;
   background-color: lightblue;
   text-align: center;
+}
+
+/*Задание 5: Свойства `flex-grow`, `flex-shrink`, `flex-basis` и сокращённое свойство `flex`*/
+.container6 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  /*align-items: flex-end;*/
+  height: 300px;
+  margin-top: 3px;
+  align-content: space-evenly;
+  border: 2px solid rgb(59, 39, 2);
+}
+
+.item1 {
+  flex-shrink: 1;
+  margin: 10px;
+  padding: 10px;
+  height: 20px;
+  border: 1.5px solid greenyellow;
+  background-color: rgb(48, 184, 230);
+  text-align: center;
+}
+
+/*Задание 6: Практическое задание*/
+.container7 {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-evenly;
+  /*align-items: flex-end;*/
+  height: 300px;
+  margin-top: 3px;
+  align-content: space-evenly;
+  border: 2px solid red;
+}
+
+.item2 {
+  flex: 0 0 50%;
+  margin: 10px;
+  padding: 10px;
+  height: 25px; 
+  border: 1.5px solid greenyellow;
+  background-color: rgb(48, 184, 230);
+  /*text-align: end;*/
+}
+.item3 {
+  flex-shrink: 1 2 0;
+  margin: 10px;
+  padding: 10px;
+  height: 35px;
+  border: 1.5px solid greenyellow;
+  background-color: rgb(48, 184, 230);
+  /*text-align: end;*/
+}
+.item4 {
+  flex-shrink: 1 1 100px;
+  margin: 10px;
+  padding: 10px;
+  height: 45px;
+  border: 1.5px solid greenyellow;
+  background-color: rgb(48, 184, 230);
+  /*text-align: end;*/
+}
+
+/*Задание 7: Меню навигации с выравниванием по центру*/
+.container8 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  align-items: stretch; /*для flex - расстяг-я доч эл-тов???*/
+  height: 200px;
+  margin-top: 3px;
+  /*align-content: space-around;*/
+  /*text-align: center;*/
+  border: 2px solid gray;
+}
+
+.item5 {
+  flex: 0 0 50%;
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  border: 1.5px solid greenyellow;
+  background-color: yellow;
+  /*text-align: center;*/
+}
+.item6 {
+  flex: 1 3 1; /*не работает*/
+  margin: 10px;
+  padding: 10px;
+  height: 45px; 
+  border: 1.5px solid greenyellow;
+  background-color: blueviolet;
+  /*text-align: center;*/
+}
+.item7 {
+  flex-shrink: 1 1 100px;
+  margin: 10px;
+  padding: 10px;
+  height: 50px; 
+  border: 1.5px solid greenyellow;
+  background-color: peru;
+  /*text-align: center;*/
+}
+
+/*Задание 8: Галерея карточек*/
+
+.container9 {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /*align-items: stretch;*/
+  height: 200px;
+  margin-top: 3px;
+  /*align-content: space-around;*/
+  /*text-align: center;*/
+  border: 2px solid rgb(8, 134, 25);
+}
+
+.item8 {
+  flex-grow: 1;
+  margin: 10px;
+  padding: 10px;
+  height: 40px;
+  border: 3px solid rgba(196, 13, 13, 0.712);
+  background-color: rgb(89, 214, 77);
+  /*text-align: center;*/
 }
